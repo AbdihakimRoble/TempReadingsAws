@@ -7,7 +7,8 @@ Detta projekt är en komplett IoT-lösning för insamling, lagring och visualise
 
 ## Arkitektur och Dataflöde
 
-![Arkitekturdiagram]((https://i.imgur.com/26YSzJa.png)
+![Arkitekturdiagram] ![ddd - Imgur](https://github.com/user-attachments/assets/aa7f76a2-ab9d-4995-9453-3c0152176711)
+
 
 *Figur 1: Översikt över IoT-arkitekturen och dataflödet i projektet.*
 
