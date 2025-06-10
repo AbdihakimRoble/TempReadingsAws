@@ -24,21 +24,30 @@ Dataflödet fungerar så här:
 ## Visualisering och databaser
 
 ### InfluxDB - Tidsseriedata i realtid  
-![InfluxDB realtidsgraf](path/to/influxdb-image.png)  
+![z6dLrG0 - Imgur](https://github.com/user-attachments/assets/255d0647-7e28-45bc-ae8f-7a32bfe39456)
+
 *Figur 2: InfluxDB lagrar temperaturdata som tidsserier vilket möjliggör snabb och effektiv hämtning för realtidsvisualisering.*
 
 ### Grafana Dashboard - Realtidsgraf  
-![Grafana dashboard](path/to/grafana-image.png)  
+ ![d2V4jDT - Imgur](https://github.com/user-attachments/assets/f8a9f7ae-84b8-4c55-8233-e0103f28e9ee)
+
 *Figur 3: Grafana visar realtidsdata från InfluxDB i form av intuitiva och interaktiva grafer.*
 
 ### DynamoDB - Strukturerad datalagring  
-![DynamoDB lagring](path/to/dynamodb-image.png)  
+![5iuwdVY - Imgur](https://github.com/user-attachments/assets/99235ab0-335a-4d6f-8dfb-a301ba940642)
+
 *Figur 4: DynamoDB används för att lagra JSON-dokument med temperaturdata för långsiktig analys och arkivering.*
 
 ### MQTT - Dataflöde via AWS IoT Core  
-![MQTT värdevisning](path/to/mqtt-image.png)  
+![Ipiy4Cv - Imgur](https://github.com/user-attachments/assets/19d64937-e7c6-4291-926c-33edd563f76e)
+
 *Figur 5: Data skickas säkert från ESP32 till AWS IoT Core via MQTT med TLS-kryptering.*
 
+### Node-RED - Visuell flödeshantering
+![MBsn5Qg - Imgur](https://github.com/user-attachments/assets/f4aade34-7db3-4e5d-8724-ea235f18f78e)
+
+
+*Figur 6: Node-RED används för att skapa visuella flöden som processar och vidarebefordrar MQTT-data från AWS IoT Core till InfluxDB.*
 ---
 
 ## Varför valde vi InfluxDB för visualisering?
