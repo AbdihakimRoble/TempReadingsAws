@@ -5,9 +5,16 @@ Detta projekt är en komplett IoT-lösning för insamling, lagring och visualise
 
 ---
 
-## Arkitektur och Dataflöde
+## Systemkrav
 
-![Arkitekturdiagram] ![ddd - Imgur](https://github.com/user-attachments/assets/aa7f76a2-ab9d-4995-9453-3c0152176711)
+- Arduino IDE version 2.0 eller senare
+- Node.js version 14 eller senare för Node-RED
+- AWS-konto med rättigheter att skapa IoT Core resurser
+- Certifikat och nycklar för TLS 1.2 MQTT-kommunikation
+- Grafana version 8 eller senare
+## Arkitektur och Dataflöde
+---
+![ddd - Imgur](https://github.com/user-attachments/assets/aa7f76a2-ab9d-4995-9453-3c0152176711)
 
 
 *Figur 1: Översikt över IoT-arkitekturen och dataflödet i projektet.*
@@ -64,8 +71,8 @@ Dataflödet fungerar så här:
 | Funktion                  | DynamoDB                              | InfluxDB                               |
 |--------------------------|-------------------------------------|---------------------------------------|
 | Datatyp                  | JSON-dokument                       | Tidsseriedata med tidsstämplar        |
-| Optimering               | Skalbar NoSQL-datalagring          | Optimerad för tidsserie- och sensorflöden |
-| Användningsområde        | Långsiktig lagring och analys      | Realtidsanalys och visualisering       |
+| Optimering               | Skalbar NoSQL-datalagring           | Optimerad för tidsserie- och sensorflöden |
+| Användningsområde        | Långsiktig lagring och analys       | Realtidsanalys och visualisering       |
 | Grafana-integration      | Kräver mellanlager                  | Direktstöd i Grafana                    |
 | Frågespråk               | PartiQL (SQL-liknande)              | Flux (tidsseriefrågor)                  |
 
@@ -100,19 +107,40 @@ Dataflödet fungerar så här:
 ---
 
 ## Installation och körning
-
-För detaljerad installationsguide och källkod, se `/docs`-mappen i detta repo.
+För en detaljerad installationsguide, se [INSTALL.md](INSTALL.md)
 
 ---
 
 ## Kontakt och support
 
 För frågor eller samarbete:  
-**Ditt Namn**  
-Email: ditt.email@example.com  
-GitHub: [https://github.com/dittkonto](https://github.com/dittkonto)
+**Abdihakim Roble**  
+Email: abdihskib@gmail.com  
+GitHub: [[https://github.com/dittkonto](https://github.com/AbdihakimRoble)]
 
 ---
 
 *Dokumentation skapad för IoT-kursprojekt, 2025.*
+
+MIT License
+
+Copyright (c) 2025 Abdihakim Roble
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
 
