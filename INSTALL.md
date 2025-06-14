@@ -35,13 +35,8 @@ https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32
 * **Ange WiFi-uppgifter och AWS-certifikat i koden**
 * Välj rätt board: Tools > Board > ESP32 Dev Module (eller motsvarande)
 * Kompilera och ladda upp
-
-[fortsätter med resten av formateringen...]
 ​
-Vill du ha resten av texten konverterad också? Jag kan fortsätta med den återstående delen.
-14 resultat
-ja allt
-Här är hela texten konverterad till markdown:
+
 # INSTALLATION OCH KÖRNING
 
 Det här dokumentet guidar dig genom installation och konfigurering av hela IoT-projektet med ESP32, AWS IoT Core, Node-RED, InfluxDB och Grafana.
